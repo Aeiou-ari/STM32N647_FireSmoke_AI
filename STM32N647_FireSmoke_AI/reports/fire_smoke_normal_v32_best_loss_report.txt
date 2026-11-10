@@ -1,0 +1,32 @@
+Best Loss TEST RESULTS
+============================================================
+
+Accuracy: 87.6667%
+
+Classification Report
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Fire     0.9468    0.8900    0.9175       100
+     Neutral     0.8763    0.8500    0.8629       100
+       Smoke     0.8165    0.8900    0.8517       100
+
+    accuracy                         0.8767       300
+   macro avg     0.8799    0.8767    0.8774       300
+weighted avg     0.8799    0.8767    0.8774       300
+
+Confusion Matrix
+------------------------------------------------------------
+[[89  2  9]
+ [ 4 85 11]
+ [ 1 10 89]]
+
+Neutral / Smoke Analysis
+------------------------------------------------------------
+Fire correct     : 89/100
+Neutral correct  : 85/100
+Smoke correct    : 89/100
+Neutral -> Smoke : 11/100
+Smoke -> Neutral : 10/100
+N/S total errors : 21
+Minimum recall   : 85.0000%

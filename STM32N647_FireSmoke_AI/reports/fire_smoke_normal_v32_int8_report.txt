@@ -1,0 +1,29 @@
+V3.2 INT8 TEST RESULTS
+============================================================
+
+Accuracy: 88.0000%
+
+Classification Report
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Fire     0.9474    0.9000    0.9231       100
+     Neutral     0.8763    0.8500    0.8629       100
+       Smoke     0.8241    0.8900    0.8558       100
+
+    accuracy                         0.8800       300
+   macro avg     0.8826    0.8800    0.8806       300
+weighted avg     0.8826    0.8800    0.8806       300
+
+Confusion Matrix
+------------------------------------------------------------
+[[90  2  8]
+ [ 4 85 11]
+ [ 1 10 89]]
+
+Neutral / Smoke Analysis
+------------------------------------------------------------
+Neutral -> Smoke : 11
+Smoke -> Neutral : 10
+N/S total errors : 21
+Minimum recall   : 85.0000%

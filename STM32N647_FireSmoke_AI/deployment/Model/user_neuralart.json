@@ -1,0 +1,11 @@
+{
+    "Globals": {
+        "NA_binary": "D:/ST_AI/stneuralart/Utilities/windows/atonn.exe"
+    },
+    "Profiles": {
+        "default": {
+            "memory_pool": "./my_mpools/stm32n6.mpool",
+            "options" : "--enable-epoch-controller --all-buffers-info --no-hw-sw-parallelism --cache-maintenance --enable-virtual-mem-pools --native-float --optimization 3 --Os --Omax-ca-pipe 4 --Ocache-opt"
+        }
+    }
+}
